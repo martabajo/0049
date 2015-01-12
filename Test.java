@@ -17,6 +17,18 @@ public class Test
         }
     }
 
-  
+    public void sumValues()
+    {
+        int suma = 0;
+        int indice = 0;
+        int incremento = 1;
+        while (indice < 10)
+        {
+            suma = suma + incremento;
+            System.out.println(suma);
+            indice = indice + 1;
+            incremento = incremento + 1;
+        }
+    }
 
 }
